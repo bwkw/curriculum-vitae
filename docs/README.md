@@ -6,8 +6,7 @@
 |---|---|
 |氏名|内藤翔太（Naito Shota）|
 |生年月日|1999 年 3 月 9 日|
-|Twitter|https://twitter.com/_bwkw_|
-|Zenn|https://zenn.dev/mbao|
+|最終学歴|慶應義塾大学大学院理工学研究科|
 
 ---
 
