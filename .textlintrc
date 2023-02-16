@@ -103,8 +103,7 @@
       "ja-nakaguro-or-halfwidth-space-between-katakana": true,
       "ja-no-space-around-parentheses": true,
       "ja-space-after-exclamation": false,
-      "ja-space-after-question": false,
-      "ja-no-space-between-full-width": false
+      "ja-space-after-question": false
     },
     "spellcheck-tech-word": true,
     "period-in-list-item": {
