@@ -12,20 +12,15 @@
 
 ## スキル
 
-- 
-
-
 ---
 
 ## 技術スタック
 
-### 言語
+### 言語・フレームワーク
+[![My Skills](https://skillicons.dev/icons?i=js,ts,react,next,tailwind,php,laravel,py)](https://skillicons.dev)
 
-- 
-
-### フレームワーク・その他
-
-- 
+### その他
+[![My Skills](https://skillicons.dev/icons?i=aws,linux,docker,mysql,githubactions,idea,git,github,figma)](https://skillicons.dev)
 
 ---
 
