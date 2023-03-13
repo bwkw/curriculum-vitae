@@ -20,7 +20,14 @@
 [![My Skills](https://skillicons.dev/icons?i=js,ts,react,next,tailwind,php,laravel,py)](https://skillicons.dev)
 
 ### その他
-[![My Skills](https://skillicons.dev/icons?i=aws,linux,docker,mysql,githubactions,idea,git,github,figma)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,linux,docker,nginx,mysql,githubactions,idea,git,github,figma)](https://skillicons.dev)
+
+---
+
+## 保有資格
+- Microsoft Office Specialist Word 2016, Excel 2016, PowerPoint 2016 (2017/10)
+- TOEIC 835 点 (2020/11)
+- 基本情報技術者試験 (2022/11)
 
 ---
 
