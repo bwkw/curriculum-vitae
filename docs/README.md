@@ -26,7 +26,7 @@
 
 ## 保有資格
 - Microsoft Office Specialist Word 2016, Excel 2016, PowerPoint 2016 (2017/10)
-- TOEIC 835 点 (2020/11)
+- TOEIC Listening & Reading Test 835 点 (2020/11)
 - 基本情報技術者試験 (2022/11)
 
 ---
