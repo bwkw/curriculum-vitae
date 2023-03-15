@@ -120,7 +120,6 @@
     },
     "ja-hiragana-keishikimeishi": true,
     "ja-hiragana-fukushi": true,
-    "ja-hiragana-hojodoushi": true,
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "prefer-tari-tari": false,
     "abbr-within-parentheses": true,
