@@ -118,7 +118,6 @@
       "allowEmoji": false,
       "forceAppendPeriod": false
     },
-    "ja-hiragana-keishikimeishi": true,
     "ja-hiragana-fukushi": true,
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "prefer-tari-tari": false,
