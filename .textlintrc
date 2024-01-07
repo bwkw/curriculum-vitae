@@ -119,6 +119,7 @@
       "forceAppendPeriod": false
     },
     "ja-hiragana-fukushi": true,
+    "ja-technical-writing/max-ten": false,
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "prefer-tari-tari": false,
     "abbr-within-parentheses": true,
