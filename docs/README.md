@@ -4,7 +4,7 @@
 
 | key             | value                            |
 | --------------- | -------------------------------- |
-| Name            | 内藤翔太（Naito Shota）          |
+| Name            | 内藤翔太（Shota Naito）          |
 | BirthDay        | 1999 年 3 月 9 日                |
 | Final Education | 慶應義塾大学大学院理工学研究科 |
 
@@ -18,11 +18,11 @@
 
 ### 言語・フレームワーク
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,react,next,tailwind,php,laravel,py)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,react,next,tailwind,php,laravel,py,nest,prisma,graphql)](https://skillicons.dev)
 
 ### その他
 
-[![My Skills](https://skillicons.dev/icons?i=aws,linux,docker,nginx,mysql,githubactions,git,github,figma)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,terraform,linux,docker,mysql,postgres,pnpm,githubactions,git,github,figma)](https://skillicons.dev)
 
 ---
 
