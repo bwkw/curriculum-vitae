@@ -78,11 +78,7 @@ GitHub Actions の「Actions」タブから以下を手動実行できます：
 
 ### PR Description 自動生成
 
-現在のブランチの PR タイトルと description を自動生成・更新：
-
-```bash
-./.cursor/update-pr-description.sh
-```
+Cursor で `/update-pr-description` コマンドを実行すると、現在のブランチの PR タイトルと description を自動生成・更新します。
 
 コミット履歴と差分から、レビューしやすい形式の PR description を生成します。
 
