@@ -1,45 +1,127 @@
-# My Curriculum Vitae👋
-- [Github Pages](https://bwkw.github.io/curriculum-vitae/)
-- [File](https://github.com/bwkw/curriculum-vitae/blob/master/docs/README.md)
+# 職務経歴書 / Curriculum Vitae 👋
 
-## Features
+[![build pdf](https://github.com/bwkw/curriculum-vitae/actions/workflows/build-pdf.yml/badge.svg)](https://github.com/bwkw/curriculum-vitae/actions/workflows/build-pdf.yml)
+[![lint text](https://github.com/bwkw/curriculum-vitae/actions/workflows/lint-text.yml/badge.svg)](https://github.com/bwkw/curriculum-vitae/actions/workflows/lint-text.yml)
+[![check links](https://github.com/bwkw/curriculum-vitae/actions/workflows/check-links.yml/badge.svg)](https://github.com/bwkw/curriculum-vitae/actions/workflows/check-links.yml)
 
-### 💅 Lint text
+Markdown 形式で管理する職務経歴書です。GitHub Pages で Web 公開し、PDF としても出力できます。
 
-Automatic proofreading with [textlint](https://github.com/textlint/textlint).
+## 📄 閲覧
 
-```
-$ yarn lint --fix
-```
-It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  
-proofreading rules are set with `.textlintrc`.
+- **Web 版**: [GitHub Pages](https://bwkw.github.io/curriculum-vitae/)
+- **Markdown**: [docs/README.md](https://github.com/bwkw/curriculum-vitae/blob/master/docs/README.md)
+- **PDF**: [Releases](https://github.com/bwkw/curriculum-vitae/releases)からダウンロード
 
+## 🚀 セットアップ
 
+### 必要な環境
 
-### 📝 Convert MD to PDF
+- Node.js 20 以上
+- pnpm 9 以上
 
-You can generate PDF with [md-to-pdf](https://www.npmjs.com/package/md-to-pdf).
+### インストール
 
+```bash
+# リポジトリをクローン
+git clone https://github.com/bwkw/curriculum-vitae.git
+cd curriculum-vitae
 
-```
-$ yarn build:pdf
-```
+# pnpmがインストールされていない場合
+npm install -g pnpm
 
-The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.  
-
-### 🛠 Create release
-
-When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
-
-```
-$ git commit -m "add job"
-$ git tag v1.0
-$ git push origin --tags
+# 依存パッケージをインストール
+pnpm install
 ```
 
-### 📆 Remind update
+## 📝 使い方
 
-Automatically generate issues every three months with GitHub Actions Schedules triggers to prompt you to update your resume.
+### 職務経歴書の編集
 
-To change the duration or stop the job, edit `.github/workflows/create-issue.yml`.  
-To change the issue contents, edit `.github/ISSUE_TEMPLATE.md`.
+`docs/README.md` を編集してください。
+
+### テキスト校正
+
+```bash
+# 校正チェック
+pnpm run lint
+
+# 自動修正
+pnpm run lint-fix
+```
+
+### PDF 生成
+
+```bash
+# PDF を生成（docs/README.pdf に出力）
+pnpm run build:pdf
+```
+
+### フォーマット
+
+```bash
+# コードをフォーマット
+pnpm run format
+
+# フォーマットチェック（CI用）
+pnpm run format:check
+```
+
+### すべてのチェックを実行
+
+```bash
+# format チェックと lint を実行
+pnpm test
+```
+
+## 🔧 機能
+
+### 自動化されたワークフロー
+
+- **テキスト校正**: プッシュ・PR 時に自動で textlint を実行
+- **リンクチェック**: 毎週日曜日に自動でリンク切れをチェック
+- **PDF 生成とリリース**: `v*` タグをプッシュすると自動で PDF を生成してリリースに添付
+- **定期リマインダー**: 3 ヶ月ごとに職務経歴書の更新を促す Issue を自動作成
+
+### 手動トリガー
+
+GitHub Actions の「Actions」タブから以下を手動実行できます：
+
+- PDF 生成（workflow_dispatch）
+- リンクチェック
+
+### Git Hooks
+
+コミット前に自動で textlint が実行されます（Husky 使用）。
+
+### PR Description 自動生成
+
+Cursor で `/update-pr-description` コマンドを実行すると、現在のブランチの PR タイトルと description を自動生成・更新します。
+
+コミット履歴と差分から、レビューしやすい形式の PR description を生成します。
+
+## 🛠️ 技術スタック
+
+- **Markdown**: 職務経歴書の記述
+- **textlint**: 日本語文章の校正
+- **md-to-pdf**: Markdown→PDF 変換
+- **GitHub Actions**: CI/CD
+- **GitHub Pages**: 静的サイトホスティング
+- **Husky**: Git Hooks 管理
+
+## 📋 textlint ルール
+
+以下のルールセットを使用して、高品質な日本語文章を維持しています：
+
+- `preset-ja-technical-writing`: 技術文書向けルール
+- `preset-jtf-style`: JTF 日本語標準スタイルガイド
+- `preset-ja-spacing`: 日本語のスペーシングルール
+- その他、多数の日本語校正ルール
+
+詳細は `.textlintrc` を参照してください。
+
+## 📦 PDF 設定
+
+PDF 出力のスタイルは以下で設定できます：
+
+- `pdf-configs/config.js`: ページサイズ、マージンなど
+- `pdf-configs/style.css`: フォント、色、レイアウトなど

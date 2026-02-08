@@ -1,7 +1,15 @@
 ---
-title: Please update your resume【{{ date | date('YYYY/MM/DD') }}】
+title: 職務経歴書を更新してください【{{ date | date('YYYY/MM/DD') }}】
 labels: enhancement
 ---
 
-The quarter has passed.
-Please describe your accomplishments during this period in your resume.
+四半期が経過しました。
+この期間の成果や経験を職務経歴書に追記してください。
+
+## チェックリスト
+
+- [ ] 新しいプロジェクトや業務内容を追加
+- [ ] 使用した技術スタックを更新
+- [ ] 成果や実績を具体的に記載
+- [ ] textlint でチェック
+- [ ] PDF を生成して確認
