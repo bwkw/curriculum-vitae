@@ -4,36 +4,36 @@ on:
   push:
     tags:
     - 'v*'
+  workflow_dispatch:
 
 jobs:
   build:
     name: build pdf and upload release
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
         with:
-          node-version: '14'
-      - run: npm install
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
       - name: build pdf
-        run: npm run build:pdf
-      - name: create release
-        id: create_release
-        uses: actions/create-release@v1
+        run: pnpm run build:pdf
+      - name: create release and upload asset
+        if: startsWith(github.ref, 'refs/tags/')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create ${{ github.ref_name }} \
+            --title "Release ${{ github.ref_name }}" \
+            --notes "Resume PDF generated from commit ${{ github.sha }}" \
+            ./docs/README.pdf#resume.pdf
+      - name: upload artifact (for manual runs)
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
-      - name: upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./docs/README.pdf
-          asset_name: resume.pdf
-          asset_content_type: application/pdf
+          name: resume-pdf
+          path: ./docs/README.pdf
