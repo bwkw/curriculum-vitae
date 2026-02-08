@@ -4,8 +4,11 @@ on:
   schedule:
     - cron:  '0 0 1 */3 *'
 
+permissions:
+  issues: write
+
 jobs:
-  build:
+  create-issue:
     name: create issue
     runs-on: ubuntu-latest
     steps:

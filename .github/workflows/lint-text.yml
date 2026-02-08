@@ -2,8 +2,11 @@ name: lint text
 
 on: [push, pull_request]
 
+permissions:
+  contents: read
+
 jobs:
-  build:
+  lint:
     name: lint text
     runs-on: ubuntu-latest
     steps:

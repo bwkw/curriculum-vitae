@@ -20,7 +20,8 @@
     "lint": "textlint docs/README.md",
     "lint-fix": "textlint docs/README.md --fix",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
-    "prepare": "husky install"
+    "test": "pnpm run lint && echo '✓ All checks passed'",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.0",

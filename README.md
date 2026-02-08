@@ -52,8 +52,15 @@ pnpm run lint-fix
 ### PDF 生成
 
 ```bash
-# PDFを生成（docs/README.pdf に出力）
+# PDF を生成（docs/README.pdf に出力）
 pnpm run build:pdf
+```
+
+### すべてのチェックを実行
+
+```bash
+# lint を実行
+pnpm test
 ```
 
 ## 🔧 機能

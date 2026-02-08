@@ -9,6 +9,9 @@ on:
     - cron: "0 0 * * 0" # 毎週日曜日に実行
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   check:
     name: check markdown links
