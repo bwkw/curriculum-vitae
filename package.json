@@ -19,14 +19,17 @@
   "scripts": {
     "lint": "textlint docs/README.md",
     "lint-fix": "textlint docs/README.md --fix",
+    "format": "prettier --write \"**/*.{js,json,yml,yaml,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,yml,yaml,md}\"",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
-    "test": "pnpm run lint && echo '✓ All checks passed'",
+    "test": "pnpm run format:check && pnpm run lint && echo '✓ All checks passed'",
     "prepare": "husky"
   },
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.0",
     "husky": "^9.0.0",
     "md-to-pdf": "^5.2.5",
+    "prettier": "^3.8.1",
     "textlint": "^15.5.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-filter-rule-comments": "^1.2.2",

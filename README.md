@@ -56,10 +56,20 @@ pnpm run lint-fix
 pnpm run build:pdf
 ```
 
+### フォーマット
+
+```bash
+# コードをフォーマット
+pnpm run format
+
+# フォーマットチェック（CI用）
+pnpm run format:check
+```
+
 ### すべてのチェックを実行
 
 ```bash
-# lint を実行
+# format チェックと lint を実行
 pnpm test
 ```
 
