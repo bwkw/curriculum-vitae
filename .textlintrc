@@ -12,7 +12,11 @@
         "max": 3
       },
       "max-kanji-continuous-len": {
-        "max": 6
+        "max": 6,
+        "allow": [
+          "慶應義塾大学大学院理工学研究科",
+          "基本情報技術者試験"
+        ]
       },
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": {
@@ -119,6 +123,7 @@
       "forceAppendPeriod": false
     },
     "ja-hiragana-fukushi": true,
+    "ja-technical-writing/max-ten": false,
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "prefer-tari-tari": false,
     "abbr-within-parentheses": true,
