@@ -9,7 +9,7 @@ Markdown 形式で管理する職務経歴書です。GitHub Pages で Web 公�
 ## 📄 閲覧
 
 - **Web 版**: [GitHub Pages](https://bwkw.github.io/curriculum-vitae/)
-- **Markdown**: [docs/README.md](https://github.com/bwkw/curriculum-vitae/blob/master/docs/README.md)
+- **Markdown**: [docs/README.md](https://github.com/bwkw/curriculum-vitae/blob/main/docs/README.md)
 - **PDF**: [Releases](https://github.com/bwkw/curriculum-vitae/releases)からダウンロード
 
 ## 🚀 セットアップ
@@ -79,15 +79,15 @@ pnpm test
 
 - **テキスト校正**: プッシュ・PR 時に自動で textlint を実行
 - **リンクチェック**: 毎週日曜日に自動でリンク切れをチェック
-- **PDF 生成とリリース**: `v*` タグをプッシュすると自動で PDF を生成してリリースに添付
+- **PDF 生成とリリース**: workflow_dispatch でバージョンを指定して実行すると、タグ作成・PDF 生成・リリース添付を自動実行
 - **定期リマインダー**: 3 ヶ月ごとに職務経歴書の更新を促す Issue を自動作成
 
 ### 手動トリガー
 
 GitHub Actions の「Actions」タブから以下を手動実行できます：
 
-- PDF 生成（workflow_dispatch）
-- リンクチェック
+- **PDF 生成**: 「build pdf」を実行し、バージョン（例: `v1.2.0`）を入力すると、タグ作成とリリースへの PDF 添付が行われます
+- **リンクチェック**: 「check links」を実行
 
 ### Git Hooks
 
