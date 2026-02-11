@@ -23,9 +23,13 @@ jobs:
           node-version: "20"
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - name: install chrome for puppeteer
-        run: pnpm exec puppeteer browsers install chrome
+      - name: install chrome dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
       - name: build pdf
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
         run: pnpm run build:pdf
       - name: create tag
         run: |
