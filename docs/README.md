@@ -1,5 +1,11 @@
 # 職務経歴書
 
+## 職務要約
+
+バックエンドを軸に、インフラ構築からフロントエンドまでフルスタックで開発を担当。レガシーシステムのリプレースでは認証基盤をはじめ複数機能の設計・実装を一貫して担当し、安定した移行を実現。TiDB 移行では、約 300 万件のデータを扱う最大規模の DB 移行で発生した複数の障害（採番キャッシュ、タイムゾーン、Collation 等）の原因を特定し、リペアスクリプトの作成・実行により復旧を完遂。チーム横断での運用ルール策定、開発マニフェストの策定、技術広報活動など、技術面だけでなく組織改善にも幅広く取り組む。
+
+---
+
 ## 基本情報
 
 | key             | value                                       |
@@ -23,13 +29,34 @@
 
 ---
 
+## 強み
+
+- **バックエンド開発**: NestJS / Laravel での API 設計・実装、認証基盤（OIDC / JWT）、DDD によるアーキテクチャ設計
+- **インフラ構築・運用**: Terraform による IaC、AWS（ECS / ALB / RDS 等）、DB 移行（TiDB）、監視設計（NewRelic）
+- **フルスタック開発**: バックエンドからフロントエンド（Next.js / React）まで一貫した開発経験
+- **技術広報・組織推進**: 外部登壇 6 回、未経験者 3 名の登壇サポート、3 チーム横断での運用ルール策定、開発マニフェスト策定のリード
+
+---
+
 ## 保有資格
 
-- Microsoft Office Specialist Word 2016, Excel 2016, PowerPoint 2016 (2017/10)
-- TOEIC Listening & Reading Test 835 点 (2020/11)
-- 基本情報技術者試験 (2022/11)
-- AWS Certified Solutions Architect - Associate (2023/08)
 - 応用情報技術者試験 (2023/11)
+- AWS Certified Solutions Architect - Associate (2023/08)
+- 基本情報技術者試験 (2022/11)
+- TOEIC Listening & Reading Test 835 点 (2020/11)
+
+---
+
+## 外部登壇実績
+
+| 日付 | イベント | タイトル |
+| --- | --- | --- |
+| 2026/01/31 | [SRE Kaigi 2026](https://2026.srekaigi.net/) | [制約が導く迷わない設計 〜 信頼性と運用性を両立するマイナンバー管理システムの実践 〜](https://speakerdeck.com/bwkw) |
+| 2024/12/04 | Nihonbashi Test Talk #3 | [ドメインロジックで考えるテスタビリティ](https://speakerdeck.com/leveragestech/tomeinrositukudekao-erutesutahiritei) |
+| 2024/10/15 | [若手エンジニア ふんわり LT Night!](https://wakate-funwari-study.connpass.com/event/330981/) | [今日から始める技術的負債の解消](https://speakerdeck.com/leveragestech/jin-ri-karashi-meruji-shu-de-fu-zhai-nojie-xiao) |
+| 2024/10/03 | [ペチオブ LT 会](https://phper-oop.connpass.com/event/329566/) | [ドキュメントとの付き合い方を考える](https://speakerdeck.com/leveragestech/dokiyumentotono-fu-kihe-ifang-wokao-eru) |
+| 2024/09/11 | [New Relic User Group Vol.11](https://nrug.connpass.com/event/327828/) | [より快適なエラーログ監視を目指して](https://speakerdeck.com/leveragestech/yorikuai-shi-naerarokujian-shi-womu-zhi-site) |
+| 2024/06/21 | [AWS Summit Japan 2024](https://aws.amazon.com/jp/summits/japan-2024/) | [膨大なデータ活用のための Amazon QuickSight を使った技術構成](https://speakerdeck.com/leveragestech/amazon-quicksight-ji-shu-gou-cheng) |
 
 ---
 
@@ -93,7 +120,7 @@
     - STG 環境と DEV 環境で ECS の夜間停止設定を実施し、無駄なリソース消費を抑えました
     - ECR リモートキャッシュを導入し、CI/CD の実行時間を短縮しました
 
-#### 技術広報活動（2024/09〜2025/06）※他プロジェクトと並行
+#### 技術広報活動（2024/09〜2025/06）
 
 ■ プロジェクト概要
 
@@ -111,7 +138,7 @@
     - 部門の重点課題に対して自発的に技術広報チームにジョインし、「外部露出を促進し技術的な価値発信を強化する」という目標を設定しました
     - 社内 LT の運営に立候補し、外部アウトプットの前段階として社内での技術発信文化を醸成しました。未経験登壇者 7 名に声をかけ、登壇者への感想を集めて本人に伝える仕組みを設けました。社内 LT の目的を再整理し冒頭で提示することや、KPI を話し手と聞き手の別軸でアンケート収集する方法を提案しました
     - 外部登壇のサポートでは、メンバーの関心をヒアリングした上で適切なテーマ選定とアサインを実施しました。Docbase で外部登壇に必要な手順を整備し、外部事例を交えたスライド作成のコツを記載しました。登壇資料のレビューや当日まで同行してサポートするなど、準備段階から当日まで一貫してサポートし、未経験者 3 名の外部登壇を実現しました
-    - 自らも 4 ヶ月間で 4 回の外部登壇を実施し、組織の認知度向上に直接貢献しました
+    - 自らも 6 回の外部登壇を実施し、組織の認知度向上に直接貢献しました（詳細は「外部登壇実績」セクション参照）
 
 #### 工数入力システムの新規開発（2024/10〜2025/02）
 
@@ -272,7 +299,7 @@
     - awsdms_apply_exceptions から INSERT や UPDATE が失敗しているデータを確認し、データリペアを実施しました
     - 移行元 DB からダンプファイルを取得し、Blob→Hex 変換後に移行先 DB へ取り込み、UPDATE 文でデータを復旧しました
     - Collation が誤って変更されていることを特定し、`utf8mb4_unicode_ci` に修正して解決しました
-    - すべての障害対応をその日中に完了し、ユーザー影響を最小限に抑えました
+    - 迅速な障害対応により、ユーザー影響を最小限に抑えました
 
 - 組織への知見共有と再発防止
   - 担当
