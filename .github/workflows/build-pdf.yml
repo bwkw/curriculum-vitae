@@ -21,6 +21,8 @@ jobs:
           node-version: "20"
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
+      - name: install chrome for puppeteer
+        run: npx puppeteer browsers install chrome
       - name: build pdf
         run: pnpm run build:pdf
       - name: create release and upload asset
