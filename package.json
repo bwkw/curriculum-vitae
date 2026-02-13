@@ -16,8 +16,8 @@
     "markdown"
   ],
   "scripts": {
-    "lint": "textlint docs/README.md",
-    "lint-fix": "textlint docs/README.md --fix",
+    "lint": "textlint docs/index.md",
+    "lint-fix": "textlint docs/index.md --fix",
     "format": "prettier --write \"**/*.{js,json,yml,yaml,md}\"",
     "format:check": "prettier --check \"**/*.{js,json,yml,yaml,md}\"",
     "test": "pnpm run format:check && pnpm run lint && echo '✓ All checks passed'",

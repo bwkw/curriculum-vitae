@@ -8,7 +8,7 @@ Markdown 形式で管理する職務経歴書です。GitHub Pages で Web 公�
 ## 閲覧
 
 - **Web 版**: [GitHub Pages](https://bwkw.github.io/curriculum-vitae/)
-- **Markdown**: [docs/README.md](https://github.com/bwkw/curriculum-vitae/blob/main/docs/README.md)
+- **Markdown**: [docs/index.md](https://github.com/bwkw/curriculum-vitae/blob/main/docs/index.md)
 
 ## セットアップ
 
@@ -35,7 +35,7 @@ pnpm install
 
 ### 職務経歴書の編集
 
-`docs/README.md` を編集してください。
+`docs/index.md` を編集してください。
 
 ### テキスト校正
 

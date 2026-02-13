@@ -6,7 +6,7 @@ pnpm-lock.yaml
 *.pdf
 
 # Docs (Markdown formatting should be preserved)
-docs/README.md
+docs/index.md
 
 # Config files that should not be formatted
 .textlintrc

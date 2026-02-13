@@ -12,14 +12,14 @@ nav_enabled: false
 
 ## 基本情報
 
-| 項目     | 内容                                        |
-| -------- | ------------------------------------------- |
-| 氏名     | 内藤翔太（Shota Naito）                     |
-| 生年月日 | 1999 年 3 月 9 日                           |
-| 最終学歴 | 慶應義塾大学大学院理工学研究科              |
-| GitHub   | [https://github.com/bwkw](https://github.com/bwkw)   |
-| X        | [https://x.com/_bwkw_](https://x.com/_bwkw_)         |
-| Zenn     | [https://zenn.dev/mbao](https://zenn.dev/mbao)       |
+| 項目     | 内容                                               |
+| -------- | -------------------------------------------------- |
+| 氏名     | 内藤翔太（Shota Naito）                            |
+| 生年月日 | 1999 年 3 月 9 日                                  |
+| 最終学歴 | 慶應義塾大学大学院理工学研究科                     |
+| GitHub   | [https://github.com/bwkw](https://github.com/bwkw) |
+| X        | [https://x.com/_bwkw_](https://x.com/_bwkw_)       |
+| Zenn     | [https://zenn.dev/mbao](https://zenn.dev/mbao)     |
 
 ## 強み
 
@@ -47,14 +47,14 @@ nav_enabled: false
 
 ## 外部登壇実績
 
-| 日付 | イベント | タイトル |
-| --- | --- | --- |
-| 2026/01/31 | [SRE Kaigi 2026](https://2026.srekaigi.net/) | [制約が導く迷わない設計 〜 信頼性と運用性を両立するマイナンバー管理システムの実践 〜](https://speakerdeck.com/bwkw) |
-| 2024/12/04 | [Nihonbashi Test Talk #3](https://nihonbashitesttalk.connpass.com/event/334396/) | [ドメインロジックで考えるテスタビリティ](https://speakerdeck.com/leveragestech/tomeinrositukudekao-erutesutahiritei) |
-| 2024/10/15 | [若手エンジニア ふんわり LT Night!](https://wakate-funwari-study.connpass.com/event/330981/) | [今日から始める技術的負債の解消](https://speakerdeck.com/leveragestech/jin-ri-karashi-meruji-shu-de-fu-zhai-nojie-xiao) |
-| 2024/10/03 | [ペチオブ LT 会](https://phper-oop.connpass.com/event/329566/) | [ドキュメントとの付き合い方を考える](https://speakerdeck.com/leveragestech/dokiyumentotono-fu-kihe-ifang-wokao-eru) |
-| 2024/09/11 | [New Relic User Group Vol.11](https://nrug.connpass.com/event/327828/) | [より快適なエラーログ監視を目指して](https://speakerdeck.com/leveragestech/yorikuai-shi-naerarokujian-shi-womu-zhi-site) |
-| 2024/06/21 | [AWS Summit Japan 2024](https://aws.amazon.com/jp/summits/japan-2024/) | [膨大なデータ活用のための Amazon QuickSight を使った技術構成](https://speakerdeck.com/leveragestech/amazon-quicksight-ji-shu-gou-cheng) |
+| 日付       | イベント                                                                                     | タイトル                                                                                                                                |
+| ---------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026/01/31 | [SRE Kaigi 2026](https://2026.srekaigi.net/)                                                 | [制約が導く迷わない設計 〜 信頼性と運用性を両立するマイナンバー管理システムの実践 〜](https://speakerdeck.com/bwkw)                     |
+| 2024/12/04 | [Nihonbashi Test Talk #3](https://nihonbashitesttalk.connpass.com/event/334396/)             | [ドメインロジックで考えるテスタビリティ](https://speakerdeck.com/leveragestech/tomeinrositukudekao-erutesutahiritei)                    |
+| 2024/10/15 | [若手エンジニア ふんわり LT Night!](https://wakate-funwari-study.connpass.com/event/330981/) | [今日から始める技術的負債の解消](https://speakerdeck.com/leveragestech/jin-ri-karashi-meruji-shu-de-fu-zhai-nojie-xiao)                 |
+| 2024/10/03 | [ペチオブ LT 会](https://phper-oop.connpass.com/event/329566/)                               | [ドキュメントとの付き合い方を考える](https://speakerdeck.com/leveragestech/dokiyumentotono-fu-kihe-ifang-wokao-eru)                     |
+| 2024/09/11 | [New Relic User Group Vol.11](https://nrug.connpass.com/event/327828/)                       | [より快適なエラーログ監視を目指して](https://speakerdeck.com/leveragestech/yorikuai-shi-naerarokujian-shi-womu-zhi-site)                |
+| 2024/06/21 | [AWS Summit Japan 2024](https://aws.amazon.com/jp/summits/japan-2024/)                       | [膨大なデータ活用のための Amazon QuickSight を使った技術構成](https://speakerdeck.com/leveragestech/amazon-quicksight-ji-shu-gou-cheng) |
 
 ## 職務経歴詳細
 
@@ -86,21 +86,21 @@ gantt
     ソーシャルデータバンク株式会社                                  :2022-09, 2023-04
 ```
 
-| 期間 | プロジェクト |
-| --- | --- |
-| 2025/07〜 | [Dress Code 株式会社](#dress-code-株式会社202507) |
-| 2025/01〜2025/06 | [レバテックプラットフォーム各機能のリプレイス](#レバテックプラットフォーム各機能のリプレイス202501202506) |
-| 2024/09〜2025/06 | [技術広報活動](#技術広報活動202409202506) |
-| 2024/10〜2025/02 | [工数入力システムの新規開発](#工数入力システムの新規開発202410202502) |
-| 2024/11〜2025/01 | [レバテック開発マニフェストの策定](#レバテック開発マニフェストの策定202411202501) |
-| 2024/10〜2024/11 | [レバテックプラットフォーム不要コード削除](#レバテックプラットフォーム不要コード削除202410202411) |
+| 期間             | プロジェクト                                                                                                        |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------- |
+| 2025/07〜        | [Dress Code 株式会社](#dress-code-株式会社202507)                                                                   |
+| 2025/01〜2025/06 | [レバテックプラットフォーム各機能のリプレイス](#レバテックプラットフォーム各機能のリプレイス202501202506)           |
+| 2024/09〜2025/06 | [技術広報活動](#技術広報活動202409202506)                                                                           |
+| 2024/10〜2025/02 | [工数入力システムの新規開発](#工数入力システムの新規開発202410202502)                                               |
+| 2024/11〜2025/01 | [レバテック開発マニフェストの策定](#レバテック開発マニフェストの策定202411202501)                                   |
+| 2024/10〜2024/11 | [レバテックプラットフォーム不要コード削除](#レバテックプラットフォーム不要コード削除202410202411)                   |
 | 2024/07〜2024/10 | [レバテックプラットフォーム認証・認可基盤リプレイス](#レバテックプラットフォーム認証認可基盤リプレイス202407202410) |
-| 2024/06〜2024/07 | [レバテックプラットフォームインフラ構築](#レバテックプラットフォームインフラ構築20240607) |
-| 2024/05〜2024/06 | [TiDB 移行プロジェクト](#tidb-移行プロジェクト202405202406) |
-| 2023/11〜2024/06 | [レバテックプラットフォーム開発・運用](#レバテックプラットフォーム開発運用202311202406) |
-| 2023/04〜2023/10 | [新卒研修期間](#新卒研修期間202304202310) |
-| 2022/04〜2023/03 | [レバレジーズ株式会社（インターン）](#レバレジーズ株式会社202204202303) |
-| 2022/09〜2023/03 | [ソーシャルデータバンク株式会社（インターン）](#ソーシャルデータバンク株式会社202209202303) |
+| 2024/06〜2024/07 | [レバテックプラットフォームインフラ構築](#レバテックプラットフォームインフラ構築20240607)                           |
+| 2024/05〜2024/06 | [TiDB 移行プロジェクト](#tidb-移行プロジェクト202405202406)                                                         |
+| 2023/11〜2024/06 | [レバテックプラットフォーム開発・運用](#レバテックプラットフォーム開発運用202311202406)                             |
+| 2023/04〜2023/10 | [新卒研修期間](#新卒研修期間202304202310)                                                                           |
+| 2022/04〜2023/03 | [レバレジーズ株式会社（インターン）](#レバレジーズ株式会社202204202303)                                             |
+| 2022/09〜2023/03 | [ソーシャルデータバンク株式会社（インターン）](#ソーシャルデータバンク株式会社202209202303)                         |
 
 ### Dress Code 株式会社（2025/07〜）
 
