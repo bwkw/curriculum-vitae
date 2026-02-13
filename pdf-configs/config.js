@@ -5,6 +5,12 @@ module.exports = {
     headerIds: false,
     smartypants: true,
   },
+  launch_options: {
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  },
+  mermaid_options: {
+    theme: "default",
+  },
   pdf_options: {
     format: "A4",
     margin: "30mm 20mm",
