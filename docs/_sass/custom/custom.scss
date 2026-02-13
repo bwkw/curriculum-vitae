@@ -1,19 +1,16 @@
-// 見出しスタイル - シンプルなモノトーン
+// 見出しスタイル - サイズとウェイトのバランス調整のみ
 
 // h1 (ページタイトル)
 h1 {
   font-size: 2rem !important;
   font-weight: 700 !important;
-  color: #1a1a1a !important;
   border-bottom: none !important;
-  margin-bottom: 1.5rem;
 }
 
-// h2 (大セクション) - 唯一の下線
+// h2 (大セクション)
 h2 {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
-  color: #1a1a1a !important;
   border-bottom: 1px solid #ccc !important;
   padding-bottom: 0.4rem;
   margin-top: 2.5rem;
@@ -24,7 +21,6 @@ h2 {
 h3 {
   font-size: 1.25rem !important;
   font-weight: 600 !important;
-  color: #1a1a1a !important;
   border-bottom: none !important;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
@@ -34,7 +30,6 @@ h3 {
 h4 {
   font-size: 1.1rem !important;
   font-weight: 600 !important;
-  color: #333 !important;
   border-bottom: none !important;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
@@ -44,45 +39,7 @@ h4 {
 h5 {
   font-size: 1rem !important;
   font-weight: 600 !important;
-  color: #444 !important;
   border-bottom: none !important;
   margin-top: 1.25rem;
   margin-bottom: 0.4rem;
-}
-
-// リンク色もモノトーンに
-a {
-  color: #333 !important;
-  text-decoration: underline;
-
-  &:hover {
-    color: #000 !important;
-  }
-}
-
-// ダークモード対応
-@media (prefers-color-scheme: dark) {
-  h1, h2, h3 {
-    color: #f0f0f0 !important;
-  }
-
-  h4 {
-    color: #ddd !important;
-  }
-
-  h5 {
-    color: #ccc !important;
-  }
-
-  h2 {
-    border-bottom-color: #555 !important;
-  }
-
-  a {
-    color: #ccc !important;
-
-    &:hover {
-      color: #fff !important;
-    }
-  }
 }
