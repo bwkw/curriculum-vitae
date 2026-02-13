@@ -8,8 +8,8 @@ toc:
   enabled: true
   heading_level: 3
 
-# サイドバー（目次として使用）
-nav_enabled: true
+# サイドバーを非表示
+nav_enabled: false
 
 # 検索バーを非表示
 search_enabled: false
