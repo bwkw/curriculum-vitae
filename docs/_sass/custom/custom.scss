@@ -4,40 +4,37 @@
 h1 {
   font-size: 2rem !important;
   font-weight: 700 !important;
-  border-bottom: none !important;
 }
 
-// h2 (大セクション)
+// h2 (大セクション) - テーマのデフォルトを維持
 h2 {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
-  border-bottom: 1px solid #e0e0e0 !important;
-  padding-bottom: 0.4rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
 
-// h3 (中セクション)
+// h3 (中セクション) - h2 より薄く
 h3 {
   font-size: 1.25rem !important;
   font-weight: 600 !important;
-  border-bottom: 1px solid #eee !important;
+  border-bottom: 1px solid #ddd !important;
   padding-bottom: 0.3rem;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
 
-// h4 (プロジェクト名)
+// h4 (プロジェクト名) - h3 より薄く
 h4 {
   font-size: 1.1rem !important;
   font-weight: 600 !important;
-  border-bottom: 1px solid #f0f0f0 !important;
+  border-bottom: 1px solid #eee !important;
   padding-bottom: 0.25rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-// h5 (サブセクション)
+// h5 (サブセクション) - 下線なし
 h5 {
   font-size: 1rem !important;
   font-weight: 600 !important;

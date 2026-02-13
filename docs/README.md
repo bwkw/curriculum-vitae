@@ -22,7 +22,6 @@
 - **フルスタック開発**: バックエンドからフロントエンド（Next.js / React）まで一貫した開発経験
 - **技術広報・組織推進**: 外部登壇 6 回、未経験者 3 名の登壇サポート、3 チーム横断での運用ルール策定、開発マニフェスト策定のリード
 
-
 ## 技術スタック
 
 ### 言語・フレームワーク
@@ -33,16 +32,12 @@
 
 [![My Skills](https://skillicons.dev/icons?i=aws,terraform,docker,mysql,postgres,linux,githubactions,pnpm,figma)](https://skillicons.dev)
 
-
-
 ## 保有資格
 
 - 応用情報技術者試験 (2023/11)
 - AWS Certified Solutions Architect - Associate (2023/08)
 - 基本情報技術者試験 (2022/11)
 - TOEIC Listening & Reading Test 835 点 (2020/11)
-
-
 
 ## 外部登壇実績
 
@@ -54,8 +49,6 @@
 | 2024/10/03 | [ペチオブ LT 会](https://phper-oop.connpass.com/event/329566/) | [ドキュメントとの付き合い方を考える](https://speakerdeck.com/leveragestech/dokiyumentotono-fu-kihe-ifang-wokao-eru) |
 | 2024/09/11 | [New Relic User Group Vol.11](https://nrug.connpass.com/event/327828/) | [より快適なエラーログ監視を目指して](https://speakerdeck.com/leveragestech/yorikuai-shi-naerarokujian-shi-womu-zhi-site) |
 | 2024/06/21 | [AWS Summit Japan 2024](https://aws.amazon.com/jp/summits/japan-2024/) | [膨大なデータ活用のための Amazon QuickSight を使った技術構成](https://speakerdeck.com/leveragestech/amazon-quicksight-ji-shu-gou-cheng) |
-
-
 
 ## 職務経歴詳細
 
