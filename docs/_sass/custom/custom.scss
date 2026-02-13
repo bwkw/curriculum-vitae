@@ -1,21 +1,20 @@
-// 見出しスタイル - モノトーンで統一
+// 見出しスタイル - シンプルなモノトーン
 
 // h1 (ページタイトル)
 h1 {
   font-size: 2rem !important;
   font-weight: 700 !important;
   color: #1a1a1a !important;
-  border-bottom: 2px solid #333 !important;
-  padding-bottom: 0.5rem;
+  border-bottom: none !important;
   margin-bottom: 1.5rem;
 }
 
-// h2 (大セクション)
+// h2 (大セクション) - 唯一の下線
 h2 {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
   color: #1a1a1a !important;
-  border-bottom: 1px solid #666 !important;
+  border-bottom: 1px solid #ccc !important;
   padding-bottom: 0.4rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
@@ -26,8 +25,7 @@ h3 {
   font-size: 1.25rem !important;
   font-weight: 600 !important;
   color: #1a1a1a !important;
-  border-bottom: 1px solid #999 !important;
-  padding-bottom: 0.3rem;
+  border-bottom: none !important;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
 }
@@ -36,10 +34,9 @@ h3 {
 h4 {
   font-size: 1.1rem !important;
   font-weight: 600 !important;
-  color: #1a1a1a !important;
-  border-bottom: 1px solid #ccc !important;
-  padding-bottom: 0.25rem;
-  margin-top: 1.75rem;
+  color: #333 !important;
+  border-bottom: none !important;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -47,7 +44,7 @@ h4 {
 h5 {
   font-size: 1rem !important;
   font-weight: 600 !important;
-  color: #333 !important;
+  color: #444 !important;
   border-bottom: none !important;
   margin-top: 1.25rem;
   margin-bottom: 0.4rem;
@@ -65,28 +62,20 @@ a {
 
 // ダークモード対応
 @media (prefers-color-scheme: dark) {
-  h1, h2, h3, h4 {
+  h1, h2, h3 {
     color: #f0f0f0 !important;
   }
 
-  h1 {
-    border-bottom-color: #ccc !important;
-  }
-
-  h2 {
-    border-bottom-color: #999 !important;
-  }
-
-  h3 {
-    border-bottom-color: #777 !important;
-  }
-
   h4 {
-    border-bottom-color: #555 !important;
+    color: #ddd !important;
   }
 
   h5 {
-    color: #ddd !important;
+    color: #ccc !important;
+  }
+
+  h2 {
+    border-bottom-color: #555 !important;
   }
 
   a {
