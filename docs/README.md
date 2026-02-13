@@ -1,3 +1,9 @@
+---
+layout: default
+title: 職務経歴書
+nav_enabled: false
+---
+
 # 職務経歴書
 
 ## 職務要約
