@@ -13,9 +13,9 @@
 | 氏名     | 内藤翔太（Shota Naito）                     |
 | 生年月日 | 1999 年 3 月 9 日                           |
 | 最終学歴 | 慶應義塾大学大学院理工学研究科              |
-| GitHub   | https://github.com/bwkw                     |
-| X        | https://x.com/_bwkw_                        |
-| Zenn     | https://zenn.dev/mbao                       |
+| GitHub   | [https://github.com/bwkw](https://github.com/bwkw)   |
+| X        | [https://x.com/_bwkw_](https://x.com/_bwkw_)         |
+| Zenn     | [https://zenn.dev/mbao](https://zenn.dev/mbao)       |
 
 ---
 
