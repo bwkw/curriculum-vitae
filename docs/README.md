@@ -4,8 +4,6 @@
 
 バックエンドを軸に、インフラ構築からフロントエンドまでフルスタックで開発を担当。レガシーシステムのリプレイスでは認証基盤をはじめ複数機能の設計・実装を一貫して担当し、安定した移行を実現。TiDB 移行では、約 300 万件のデータを扱う最大規模の DB 移行で発生した複数の障害（採番キャッシュ、タイムゾーン、Collation 等）の原因を特定し、リペアスクリプトの作成・実行により復旧を完遂。チーム横断での運用ルール策定、開発マニフェストの策定、技術広報活動など、技術面だけでなく組織改善にも幅広く取り組む。
 
----
-
 ## 基本情報
 
 | 項目     | 内容                                        |
@@ -17,8 +15,6 @@
 | X        | [https://x.com/_bwkw_](https://x.com/_bwkw_)         |
 | Zenn     | [https://zenn.dev/mbao](https://zenn.dev/mbao)       |
 
----
-
 ## 強み
 
 - **バックエンド開発**: NestJS / Laravel での API 設計・実装、認証基盤（OIDC / JWT）、DDD によるアーキテクチャ設計
@@ -26,7 +22,6 @@
 - **フルスタック開発**: バックエンドからフロントエンド（Next.js / React）まで一貫した開発経験
 - **技術広報・組織推進**: 外部登壇 6 回、未経験者 3 名の登壇サポート、3 チーム横断での運用ルール策定、開発マニフェスト策定のリード
 
----
 
 ## 技術スタック
 
@@ -38,7 +33,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=aws,terraform,docker,mysql,postgres,linux,githubactions,pnpm,figma)](https://skillicons.dev)
 
----
+
 
 ## 保有資格
 
@@ -47,7 +42,7 @@
 - 基本情報技術者試験 (2022/11)
 - TOEIC Listening & Reading Test 835 点 (2020/11)
 
----
+
 
 ## 外部登壇実績
 
@@ -60,7 +55,7 @@
 | 2024/09/11 | [New Relic User Group Vol.11](https://nrug.connpass.com/event/327828/) | [より快適なエラーログ監視を目指して](https://speakerdeck.com/leveragestech/yorikuai-shi-naerarokujian-shi-womu-zhi-site) |
 | 2024/06/21 | [AWS Summit Japan 2024](https://aws.amazon.com/jp/summits/japan-2024/) | [膨大なデータ活用のための Amazon QuickSight を使った技術構成](https://speakerdeck.com/leveragestech/amazon-quicksight-ji-shu-gou-cheng) |
 
----
+
 
 ## 職務経歴詳細
 
