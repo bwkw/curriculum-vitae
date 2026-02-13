@@ -19,6 +19,15 @@
 
 ---
 
+## 強み
+
+- **バックエンド開発**: NestJS / Laravel での API 設計・実装、認証基盤（OIDC / JWT）、DDD によるアーキテクチャ設計
+- **インフラ構築・運用**: Terraform による IaC、AWS（ECS / ALB / RDS 等）、DB 移行（TiDB）、監視設計（NewRelic）
+- **フルスタック開発**: バックエンドからフロントエンド（Next.js / React）まで一貫した開発経験
+- **技術広報・組織推進**: 外部登壇 6 回、未経験者 3 名の登壇サポート、3 チーム横断での運用ルール策定、開発マニフェスト策定のリード
+
+---
+
 ## 技術スタック
 
 ### 言語・フレームワーク
@@ -28,15 +37,6 @@
 ### その他
 
 [![My Skills](https://skillicons.dev/icons?i=aws,terraform,docker,mysql,postgres,linux,githubactions,pnpm,figma)](https://skillicons.dev)
-
----
-
-## 強み
-
-- **バックエンド開発**: NestJS / Laravel での API 設計・実装、認証基盤（OIDC / JWT）、DDD によるアーキテクチャ設計
-- **インフラ構築・運用**: Terraform による IaC、AWS（ECS / ALB / RDS 等）、DB 移行（TiDB）、監視設計（NewRelic）
-- **フルスタック開発**: バックエンドからフロントエンド（Next.js / React）まで一貫した開発経験
-- **技術広報・組織推進**: 外部登壇 6 回、未経験者 3 名の登壇サポート、3 チーム横断での運用ルール策定、開発マニフェスト策定のリード
 
 ---
 

@@ -1,0 +1,16 @@
+// h5 のスタイルを強調
+h5 {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: #1a1a1a;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: 0.25rem;
+}
+
+// ダークモード対応
+.dark-mode h5 {
+  color: #f0f0f0;
+  border-bottom-color: #444;
+}

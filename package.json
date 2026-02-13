@@ -1,7 +1,7 @@
 {
   "name": "curriculum-vitae",
   "version": "1.0.0",
-  "description": "職務経歴書の管理リポジトリ - Markdown形式で作成し、GitHub PagesとPDFで公開",
+  "description": "職務経歴書の管理リポジトリ - Markdown形式で作成し、GitHub Pagesで公開",
   "author": "Shota Naito",
   "private": true,
   "packageManager": "pnpm@9.15.4",
@@ -13,22 +13,19 @@
   "keywords": [
     "resume",
     "curriculum-vitae",
-    "markdown",
-    "pdf"
+    "markdown"
   ],
   "scripts": {
     "lint": "textlint docs/README.md",
     "lint-fix": "textlint docs/README.md --fix",
     "format": "prettier --write \"**/*.{js,json,yml,yaml,md}\"",
     "format:check": "prettier --check \"**/*.{js,json,yml,yaml,md}\"",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
     "test": "pnpm run format:check && pnpm run lint && echo '✓ All checks passed'",
     "prepare": "husky"
   },
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.0",
     "husky": "^9.0.0",
-    "md-to-pdf": "^5.2.5",
     "prettier": "^3.8.1",
     "textlint": "^15.5.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
