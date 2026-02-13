@@ -1,1 +1,7 @@
-theme: jekyll-theme-slate
+remote_theme: just-the-docs/just-the-docs
+
+title: 職務経歴書
+description: 内藤翔太の職務経歴書
+
+mermaid:
+  version: "10"
